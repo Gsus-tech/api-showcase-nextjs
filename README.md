@@ -17,9 +17,9 @@ Follow the instructions below to set up the project on your local machine and ge
 - npm, yarn, pnpm, or bun for package management
 - An API key from the ExchangeRate API (or a similar service).
 
-### --------------------------
+### =================================
 ### INSTALLATION PROCESS GUIDE
-### --------------------------
+### =================================
 1. #### Clone the repository:
 git clone https://github.com/Gsus-tech/api-showcase-nextjs.git
 
