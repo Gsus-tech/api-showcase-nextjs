@@ -28,24 +28,17 @@ git clone https://github.com/Gsus-tech/api-showcase-nextjs.git
 cd api-showcase-nextjs
 
 3. #### Install the dependencies (I used npm, you can use whatever you prefer):
-bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
+` npm install
+` yarn install
+` pnpm install
+` bun install
 
 4. #### Set up your environment variables by creating a .env file in the root directory (if it doesn’t exist already) and adding your API key:
 EXCHANGE_RATE_API_KEY=your-api-key-here
 
 5. #### And thats it! Now just run the application and test it:
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* npm run dev
+* yarn dev
+* pnpm dev
+* bun dev
 
