@@ -22,23 +22,23 @@ Follow the instructions below to set up the project on your local machine and ge
 ### INSTALLATION PROCESS GUIDE
 
 1. #### Clone the repository:
-git clone https://github.com/Gsus-tech/api-showcase-nextjs.git
+`git clone https://github.com/Gsus-tech/api-showcase-nextjs.git`
 
 2. #### Navigate into the project directory:
-cd api-showcase-nextjs
+`cd api-showcase-nextjs`
 
 3. #### Install the dependencies (I used npm, you can use whatever you prefer):
-` npm install
-` yarn install
-` pnpm install
-` bun install
+`npm install` <br>
+`yarn install` <br>
+`pnpm install` <br>
+`bun install` <br>
 
 4. #### Set up your environment variables by creating a .env file in the root directory (if it doesn’t exist already) and adding your API key:
 EXCHANGE_RATE_API_KEY=your-api-key-here
 
 5. #### And thats it! Now just run the application and test it:
-* npm run dev
-* yarn dev
-* pnpm dev
-* bun dev
+`npm run dev` <br>
+`yarn dev` <br>
+`pnpm dev` <br>
+`bun dev` <br>
 
