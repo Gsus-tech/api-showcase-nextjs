@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# API Interaction with Next.js
+
+## Description:
+This project demonstrates technical skills in developing a Next.js application that interacts with an external API. 
+
+## Key features include:
+- Fetching data from an external API (currency exchange rates).
+- Handling asynchronous requests in Next.js API routes.
+- Server-side and client-side rendering integration with Next.js.
+- Proper usage of environment variables for sensitive API keys.
 
 ## Getting Started
+Follow the instructions below to set up the project on your local machine and get it running.
 
-First, run the development server:
+### Prerequisites
+- Node.js: version v14.x.x or higher
+- npm, yarn, pnpm, or bun for package management
+- An API key from the ExchangeRate API (or a similar service).
 
-```bash
+### ---------------------------------------------
+### ||       INSTALLATION PROCESS GUIDE        ||
+### ---------------------------------------------
+1. ## Clone the repository:
+git clone https://github.com/Gsus-tech/api-showcase-nextjs.git
+
+2. ## Navigate into the project directory:
+cd api-showcase-nextjs
+
+3. ## Install the dependencies (I used npm, you can use whatever you prefer):
+npm install
+yarn install
+pnpm install
+bun install
+
+4. ## Set up your environment variables by creating a .env file in the root directory (if it doesn’t exist already) and adding your API key:
+EXCHANGE_RATE_API_KEY=your-api-key-here
+
+5. ## And thats it! Now just run the application and test it:
 npm run dev
-# or
 yarn dev
-# or
 pnpm dev
-# or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
