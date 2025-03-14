@@ -28,17 +28,24 @@ Follow the instructions below to set up the project on your local machine and ge
 `cd api-showcase-nextjs`
 
 3. #### Install the dependencies (I used npm, you can use whatever you prefer):
-`npm install` <br>
-`yarn install` <br>
-`pnpm install` <br>
-`bun install` <br>
+`npm install` 
+<br>or<br>
+`yarn install` 
+<br>or<br>
+`pnpm install` 
+<br>or<br>
+`bun install`
 
 4. #### Set up your environment variables by creating a .env file in the root directory (if it doesn’t exist already) and adding your API key:
 EXCHANGE_RATE_API_KEY=your-api-key-here
 
 5. #### And thats it! Now just run the application and test it:
-`npm run dev` <br>
-`yarn dev` <br>
-`pnpm dev` <br>
-`bun dev` <br>
+`npm run dev` 
+<br>or<br>
+`yarn dev` 
+<br>or<br>
+`pnpm dev` 
+<br>or<br>
+`bun dev` 
+<br>or<br>
 
