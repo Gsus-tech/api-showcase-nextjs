@@ -123,9 +123,14 @@ export default function CurrencyConverter() {
       </button>
 
       {convertedAmount !== null && (
+        <>
         <p className="mt-2 text-green-600">
-          Converted Amount: {convertedAmount} {toCurrency}
+          Converted Amount:
         </p>
+        <h2 className="text-xl font-bold dark:text-white">
+          {convertedAmount} {toCurrency}
+        </h2>
+        </>
       )}
 
       {error && <p className="mt-2 text-red-500">{error}</p>}
