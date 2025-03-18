@@ -17,7 +17,8 @@ export default function Footer() {
     };
 
 return(
-    <footer className="flex gap-6 flex-wrap items-center justify-center p-4 text-white w-full">
+    <footer className="w-full p-4 text-white">
+      <div className="z-10 flex gap-6 flex-wrap items-center justify-center p-4 text-white w-full">
       <a
           className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition"
           href="https://github.com/Gsus-tech"
@@ -35,7 +36,7 @@ return(
         </a>
 
         <a
-          className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition"
+          className="z-10 flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition"
           href="https://www.linkedin.com/in/jesus-morales-villar-0777a3242/"
           target="_blank"
           rel="noopener noreferrer"
@@ -50,10 +51,10 @@ return(
           LinkedIn
         </a>
 
-        <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <div className="z-10 relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         {/* Other Sites Button */}
         <a
-            className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition"
+            className="flex cursor-pointer items-center gap-2 px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition"
             target="_blank"
             rel="noopener noreferrer"
         >
@@ -63,9 +64,10 @@ return(
 
         {/* Other Sites Images Preview Container */}
         {isHovered && (
-            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 w-64 p-4 bg-gray-300 border border-gray-600 rounded-lg shadow-lg">
-              <h3 className="font-semibold text-gray-800 mb-2">Preview Sites</h3>
+            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 w-auto p-4 bg-gray-300 border border-gray-600 rounded-lg shadow-lg">
+              {/* <h3 className="font-semibold text-gray-800 mb-2">Preview Sites</h3> */}
               <div className="flex gap-4">
+                {/* Portfolio preview */}
                 <div className="relative w-20 h-20 bg-gray-600 rounded-lg overflow-hidden transition-transform duration-250 hover:scale-120 group">
                     <a
                     href="https://morales-tech.net"
@@ -87,11 +89,20 @@ return(
                         Portfolio
                     </span>
                 </div>
+                
               </div>
             </div>
         )}
         </div>
-
+        </div>
+        
+        <div className="z-10 flex justify-end items-end mt-4">
+          <p className="text-sm text-gray-400 text-right">
+            Created with Next.js, styled with Tailwind CSS, and deployed using GCP <br />
+            Developed by 
+            <a href="https://morales-tech.net" className="text-blue-500 hover:underline cursor-pointer"> morales-tech.net</a>
+          </p>
+        </div>
       </footer>
     );
 }
