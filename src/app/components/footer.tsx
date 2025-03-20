@@ -68,7 +68,7 @@ return(
               {/* <h3 className="font-semibold text-gray-800 mb-2">Preview Sites</h3> */}
               <div className="flex gap-4">
                 {/* Portfolio preview */}
-                <div className="relative w-20 h-20 bg-gray-600 rounded-lg overflow-hidden transition-transform duration-250 hover:scale-120 group">
+                <div className="cursor-pointer relative w-20 h-20 bg-gray-600 rounded-lg overflow-hidden transition-transform duration-250 hover:scale-120 group">
                     <a
                     href="https://morales-tech.net"
                     target="_blank"
@@ -85,8 +85,30 @@ return(
                     </a>
 
                     {/* Tooltip (appears on hover, fixed position) */}
-                    <span className="fixed left-1/2 transform -translate-x-1/2 p-1 px-2 w-auto text-xs text-gray-800 bg-gradient-to-t from-gray-200 to-gray-300 rounded-lg shadow-md opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible transition-opacity duration-300 ease-in-out">
+                    <span className="pointer-events-none fixed left-1/2 transform -translate-x-1/2 p-1 px-2 w-auto text-xs text-gray-800 bg-gradient-to-t from-gray-200 to-gray-300 rounded-lg shadow-md opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible transition-opacity duration-300 ease-in-out">
                         Portfolio
+                    </span>
+                </div>
+
+                <div className="cursor-pointer relative w-20 h-20 bg-gray-600 rounded-lg overflow-hidden transition-transform duration-250 hover:scale-120 group">
+                    <a
+                    href="https://todo-app-web-five.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group"
+                    >
+                    <Image
+                        src="/todo-app.webp"
+                        alt="Site Preview"
+                        fill
+                        className="object-cover rounded-lg transition-transform duration-300 hover:scale-110"
+                        sizes="80px"
+                    />
+                    </a>
+
+                    {/* Tooltip (appears on hover, fixed position) */}
+                    <span className="pointer-events-none fixed left-1/2 transform -translate-x-1/2 p-1 px-2 w-auto text-xs text-gray-800 bg-gradient-to-t from-gray-200 to-gray-300 rounded-lg shadow-md opacity-0 visibility-hidden group-hover:opacity-100 group-hover:visibility-visible transition-opacity duration-300 ease-in-out">
+                        ToDo App
                     </span>
                 </div>
                 
