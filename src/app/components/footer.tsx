@@ -92,7 +92,7 @@ return(
 
                 <div className="cursor-pointer relative w-20 h-20 bg-gray-600 rounded-lg overflow-hidden transition-transform duration-250 hover:scale-120 group">
                     <a
-                    href="https://todo-app-web-five.vercel.app/"
+                    href="https://todo-full-web.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group"
